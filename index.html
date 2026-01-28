@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROADLE - Bike Accessories & Protective Gears</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container top-row">
+            <button class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <img src="Roadle Logo Design 2.png" alt="ROADLE" class="logo">
+            <div class="header-right">
+                <input type="text" id="product-search" placeholder="Search products..." class="search-input">
+                <a href="cart.html" class="cart-icon">
+                    <span class="cart-symbol">🛒</span>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Shop By ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="category.html?type=accessories">Accessories</a></li>
+                            <li><a href="category.html?type=helmets">Helmets</a></li>
+                            <li><a href="category.html?type=pants">Pants</a></li>
+                            <li><a href="category.html?type=gloves">Gloves</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Helmets ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="category.html?type=helmets&sub=fullface">Full Face</a></li>
+                            <li><a href="category.html?type=helmets&sub=modular">Modular</a></li>
+                            <li><a href="category.html?type=helmets&sub=offroad">Off-road</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Riding Gears ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="category.html?type=jackets">Jackets</a></li>
+                            <li><a href="category.html?type=pants">Pants</a></li>
+                            <li><a href="category.html?type=gloves">Gloves</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Accessories ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="category.html?type=accessories&sub=lights">Lights</a></li>
+                            <li><a href="category.html?type=accessories&sub=guards">Guards</a></li>
+                            <li><a href="category.html?type=accessories&sub=covers">Covers</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">About Roadle</a></li>
+                    <li><a href="#contact">Have Query?</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sidebar Navigation -->
+    <div id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <button class="sidebar-close">&times;</button>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </div>
+
+    <!-- Sidebar Overlay -->
+    <div class="sidebar-overlay"></div>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <img src="head image.png" alt="">
+
+            <h2>Ride Safe, Ride Stylish</h2>
+            <p>Premium bike accessories and protective riding gears for every rider.</p>
+            <a href="#categories" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="categories" class="products">
+        <div class="container">
+            <h2>Shop by Category</h2>
+            <div class="product-grid">
+                <div class="category-card" data-type="accessories">
+                    <img src="IMAGE DISPLAY.png" alt="Accessories">
+                    <h3>Accessories</h3>
+                </div>
+                <div class="category-card" data-type="helmets">
+                    <img src="image 1.png" image.png" alt="Helmets">
+                    <h3>Helmets</h3>
+                </div>
+                <div class="category-card" data-type="jackets">
+                    <img src="IMAGE JACKET.png" alt="Jackets">
+                    <h3>Jackets</h3>
+                </div>
+                <div class="category-card" data-type="pants">
+                    <img src="image pants.png" alt="Pants">
+                    <h3>Pants</h3>
+                </div>
+                <div class="category-card" data-type="gloves">
+                    <img src="image gloves.png" alt="Gloves">
+                    <h3>Gloves</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <p>&copy; 2023 ROADLE. All rights reserved.</p>
+            Contact Information: VIKAS CHOUDHARY :9765393462
+            <p>Contact us at info@roadle.com</p>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
